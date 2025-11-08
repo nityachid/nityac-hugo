@@ -1,4 +1,4 @@
-baseURL = 'https://nityac.com/'
+baseURL = 'https://nityachid.github.io/nityac-hugo/'
 languageCode = 'en-us'
 title = 'Nitya Chidambaram'
 theme = 'hugo-theme-stack'
