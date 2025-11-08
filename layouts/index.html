@@ -1,0 +1,17 @@
+{{ define "main" }}
+<div class="homepage-content">
+    <article class="homepage-article">
+        {{ .Content }}
+    </article>
+    
+    <section class="homepage-cta">
+        <a href="/work/" class="cta-link">Explore work →</a>
+        <a href="/essays/" class="cta-link">Read essays →</a>
+    </section>
+</div>
+{{ end }}
+
+{{ define "right-sidebar" }}
+    {{ partial "sidebar/right.html" (dict "Context" . "Scope" "homepage") }}
+{{ end }}
+

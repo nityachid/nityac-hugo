@@ -1,0 +1,203 @@
+/* Minimalistic Swedish Design - Custom Styles */
+
+/* Override CSS variables for minimalistic aesthetic */
+:root {
+    /* Light, clean background */
+    --body-background: #ffffff;
+    
+    /* Soft, readable text colors */
+    --body-text-color: #2c2c2c;
+    --accent-color: #1a1a1a;
+    --accent-color-darker: #000000;
+    
+    /* Increased whitespace */
+    --section-separation: 80px;
+    --main-top-padding: 60px;
+    
+    /* Minimal card styling */
+    --card-background: #ffffff;
+    --card-border-radius: 0px;
+    --card-padding: 40px;
+    
+    /* Clean typography */
+    --base-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    --article-font-size: 1.8rem;
+    --article-line-height: 1.7;
+    
+    /* Minimal shadows and borders */
+    --card-separator-color: rgba(0, 0, 0, 0.08);
+}
+
+/* Dark mode adjustments */
+:root[data-scheme="dark"] {
+    --body-background: #1a1a1a;
+    --body-text-color: #e5e5e5;
+    --accent-color: #ffffff;
+    --card-background: #1a1a1a;
+    --card-separator-color: rgba(255, 255, 255, 0.08);
+}
+
+/* Home page specific styles */
+.homepage-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 80px 20px;
+}
+
+.homepage-article {
+    margin-bottom: 100px;
+    
+    /* Clean typography for home page */
+    h1 {
+        font-size: 3.5rem;
+        font-weight: 300;
+        line-height: 1.2;
+        margin-bottom: 30px;
+        color: var(--accent-color);
+        letter-spacing: -0.02em;
+        
+        @media (max-width: 768px) {
+            font-size: 2.5rem;
+        }
+    }
+    
+    p {
+        font-size: 1.6rem;
+        line-height: 1.7;
+        color: var(--body-text-color);
+        margin-bottom: 60px;
+        font-weight: 300;
+    }
+    
+    h2 {
+        font-size: 1.8rem;
+        font-weight: 400;
+        margin-top: 60px;
+        margin-bottom: 10px;
+        color: var(--accent-color);
+        letter-spacing: -0.01em;
+    }
+    
+    /* Remove default list styling */
+    ul, ol {
+        list-style: none;
+        padding: 0;
+    }
+}
+
+/* CTA links - minimalistic style */
+.homepage-cta {
+    margin-top: 80px;
+    padding-top: 40px;
+    border-top: 1px solid var(--card-separator-color);
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.cta-link {
+    font-size: 1.4rem;
+    color: var(--accent-color);
+    text-decoration: none;
+    font-weight: 400;
+    transition: opacity 0.2s ease;
+    letter-spacing: -0.01em;
+    
+    &:hover {
+        opacity: 0.6;
+    }
+}
+
+/* General minimalistic adjustments */
+body {
+    font-weight: 300;
+    letter-spacing: -0.01em;
+}
+
+/* Reduce visual clutter - minimal shadows */
+.card {
+    box-shadow: none;
+    border: 1px solid var(--card-separator-color);
+}
+
+/* Clean menu styling */
+.menu {
+    font-weight: 400;
+}
+
+/* Simplified article list */
+.article-list {
+    .article-list-item {
+        border-bottom: 1px solid var(--card-separator-color);
+        padding-bottom: 40px;
+        margin-bottom: 40px;
+        
+        &:last-child {
+            border-bottom: none;
+        }
+    }
+}
+
+/* Footer - minimalistic */
+.site-footer {
+    margin-top: 100px;
+    padding-top: 40px;
+    border-top: 1px solid var(--card-separator-color);
+    font-size: 1.2rem;
+    color: var(--body-text-color);
+    opacity: 0.7;
+}
+
+/* Sidebar - clean and minimal */
+.sidebar {
+    .sidebar-subtitle {
+        font-weight: 300;
+        font-size: 1.4rem;
+        line-height: 1.6;
+        color: var(--body-text-color);
+    }
+}
+
+/* Remove unnecessary decorations */
+* {
+    &::before,
+    &::after {
+        /* Minimal decorative elements */
+    }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .homepage-content {
+        padding: 40px 20px;
+    }
+    
+    .homepage-article {
+        margin-bottom: 60px;
+        
+        h1 {
+            font-size: 2.2rem;
+        }
+        
+        p {
+            font-size: 1.4rem;
+            margin-bottom: 40px;
+        }
+        
+        h2 {
+            font-size: 1.6rem;
+            margin-top: 40px;
+        }
+    }
+    
+    .homepage-cta {
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    :root {
+        --section-separation: 50px;
+        --main-top-padding: 40px;
+    }
+}
+

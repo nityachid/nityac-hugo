@@ -1,0 +1,42 @@
+baseURL = 'https://YOUR_USERNAME.github.io/'
+languageCode = 'en-us'
+title = 'Nitya Chidambaram'
+theme = 'hugo-theme-stack'
+DefaultContentLanguage = 'en'
+hasCJKLanguage = false
+
+[params]
+  # Stack theme configuration
+  mainSections = ['posts']
+  
+  [params.sidebar]
+    subtitle = 'I build systems that scale clarity.'
+  
+  [params.footer]
+    customText = 'Built with intent. © 2025 Nitya Chidambaram.'
+  
+[menu]
+  [[menu.main]]
+    identifier = "work"
+    name = "Work"
+    url = "/work/"
+    weight = 10
+  
+  [[menu.main]]
+    identifier = "essays"
+    name = "Essays"
+    url = "/essays/"
+    weight = 20
+  
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 30
+  
+  [[menu.main]]
+    identifier = "connect"
+    name = "Connect"
+    url = "/connect/"
+    weight = 40
+

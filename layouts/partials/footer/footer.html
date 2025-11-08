@@ -1,0 +1,8 @@
+{{- with .Site.Params.footer.customText -}}
+<footer class="site-footer">
+    <section class="copyright">
+        {{ . | safeHTML }}
+    </section>
+</footer>
+{{- end -}}
+
