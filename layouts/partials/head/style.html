@@ -1,4 +1,13 @@
-{{ $sass := resources.Get "scss/style.scss" }}
-{{ $style := $sass | toCSS | minify | resources.Fingerprint "sha256" }}
-<link rel="stylesheet" href="{{ $style.RelPermalink }}">
+{{- /* Load theme's style.scss - Hugo will find it in theme assets */ -}}
+{{- $sass := resources.Get "scss/style.scss" -}}
+{{- if $sass -}}
+    {{- $style := $sass | toCSS | minify | resources.Fingerprint "sha256" -}}
+    <link rel="stylesheet" href="{{ $style.RelPermalink }}">
+{{- end -}}
+
+{{- /* Load our custom.scss from site assets to override theme styles */ -}}
+{{- with resources.Get "scss/custom.scss" -}}
+    {{- $customStyle := . | toCSS | minify | resources.Fingerprint "sha256" -}}
+    <link rel="stylesheet" href="{{ $customStyle.RelPermalink }}">
+{{- end -}}
 
