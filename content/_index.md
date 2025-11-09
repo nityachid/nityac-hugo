@@ -4,22 +4,30 @@ date: 2024-01-01T00:00:00Z
 draft: false
 ---
 
-# About Me
+# About
 
-<div class="about-richtext">
+### What I Do
+I help teams fix the messy operational challenges that come with growth.  
+When business complexity outgrows the tools and processes in place, I help rebuild them faster, leaner, smarter.
 
-<p><strong>I solve the messy operational challenges that come with growth.</strong></p>
+### The Journey
+For the past 12 years, I’ve led operations and growth across [Amazon](https://www.amazon.com), [Practo](https://www.practo.com), and [ShopBack](https://www.shopback.sg), scaling teams and systems in 13 countries.  
+I’ve seen what happens when companies outgrow their structure and how the right mix of process, product, and people turns chaos into momentum.
 
-<p>Over the past 12 years, I’ve helped teams at <a href="https://www.amazon.com" target="_blank" rel="noopener">Amazon</a>, <a href="https://www.practo.com" target="_blank" rel="noopener">Practo</a>, and <a href="https://www.shopback.sg" target="_blank" rel="noopener">ShopBack</a> scale fast without falling apart. I’ve learned when to build, when to duct-tape, and when to say no.</p>
+### What I’ve Learnt
+I move fast. I learn faster. I care about ROI, not activity.  
+Speed without clarity burns out teams — and great systems make good people even better.
 
-<p>I move fast. I learn faster. I care about ROI, not activity.</p>
+### What I’m Building
+I’ve spent years helping teams scale without breaking their systems. Now I’m applying the same lens to how AI is reshaping commerce.  
+I’m also exploring how brands can stay visible and understood inside AI-driven answers — and what it takes to build trust when algorithms are the new gatekeepers.
 
-<p>Lately, I’ve been obsessed with using AI and automation to take the repetitive stuff off people’s plates—so they can focus on real, strategic work.</p>
+### How I Think
+I start from first principles.  
+What worked? What broke? Why?  
+Then I rebuild systems that can scale without falling apart.
 
-<p>My process always starts with first principles. What worked? What broke? Why? Then I rebuild systems that can grow without the chaos.</p>
-
-<p>I sit at the crossroads of ops, product, and business—the place where the hardest (and most interesting) problems usually live.</p>
-
-<p>If that’s your world too, we’ll probably have a lot to talk about.</p>
-
-</div>
+### Where I Sit
+Somewhere between operations, product, and business strategy.  
+It’s the messy middle, and it’s my favorite place to be.  
+If that’s your world too, we’ll probably have a lot to talk about.
