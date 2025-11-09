@@ -6,5 +6,5 @@ draft: false
 
 # Work
 
-Coming soon.
+Coming soon. Link to [my first post](/posts/first-post)
 
