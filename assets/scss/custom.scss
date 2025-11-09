@@ -89,6 +89,22 @@
     }
 }
 
+/* Tighten spacing for hero copy */
+.about-richtext {
+    p {
+        line-height: 1.25;
+        margin-bottom: 1.2rem;
+    }
+
+    p:last-child {
+        margin-bottom: 0;
+    }
+
+    a {
+        text-decoration: underline;
+    }
+}
+
 /* CTA links - minimalistic style */
 .homepage-cta {
     margin-top: 80px;
@@ -100,12 +116,13 @@
 }
 
 .cta-link {
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     color: var(--accent-color);
     text-decoration: none;
-    font-weight: 400;
+    font-weight: 600;
     transition: opacity 0.2s ease;
-    letter-spacing: -0.01em;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
     
     &:hover {
         opacity: 0.6;

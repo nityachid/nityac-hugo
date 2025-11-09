@@ -5,6 +5,11 @@ theme = 'hugo-theme-stack'
 DefaultContentLanguage = 'en'
 hasCJKLanguage = false
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 [params]
   # Stack theme configuration
   mainSections = ['posts']
