@@ -12,6 +12,11 @@ hasCJKLanguage = false
   [params.sidebar]
     subtitle = 'I build systems that scale clarity.'
   
+  [params.sidebar.avatar]
+    enabled = true
+    local = true
+    src = 'img/profile-thumb.jpg'
+  
   [params.footer]
     customText = 'Built with intent. © 2025 Nitya Chidambaram.'
   
@@ -39,4 +44,3 @@ hasCJKLanguage = false
     name = "Connect"
     url = "/connect/"
     weight = 40
-
