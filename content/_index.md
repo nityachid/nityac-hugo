@@ -4,23 +4,25 @@ date: 2024-01-01T00:00:00Z
 draft: false
 ---
 
-# I build systems that scale clarity.
+# I help teams scale with clarity.
+# Through better systems, data, and design.
 
-14+ years scaling operations, GTM, and teams across high-growth startups and tech companies. Focused on how AI compounds impact in operations.
+14+ years designing systems where clarity creates scale.  
+I’m exploring how technology, especially AI, can deepen human clarity, not replace it.  
+Find my recent perspectives here.
 
-## Scaling
+## [Scaling](/essays/scaling)
 
-Rhythms that move fast — without chaos.
+Rhythms that move fast without chaos.
 
-## AI in Ops
+## [AI in Ops](/essays/ai-in-ops)
 
-Where automation compounds — not confuses.
+Where automation compounds not confuses.
 
-## Culture of Clarity
+## [Culture of Clarity](/essays/culture-of-clarity)
 
 Systems that serve people.
 
-## Philosophy & Growth
+## [Philosophy & Growth](/essays/philosophy-and-growth)
 
-Growing the system — and the self.
-
+Growing the system and the self.

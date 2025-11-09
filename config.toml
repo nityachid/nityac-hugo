@@ -10,7 +10,7 @@ hasCJKLanguage = false
   mainSections = ['posts']
   
   [params.sidebar]
-    subtitle = 'I build systems that scale clarity.'
+    subtitle = 'Operator. Builder. Systems thinker.'
   
   [params.sidebar.avatar]
     enabled = true
