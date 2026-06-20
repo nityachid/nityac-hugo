@@ -1,4 +1,4 @@
-baseURL = '/'
+baseURL = 'https://nityac.com/'
 languageCode = 'en-us'
 title = 'Nitya Chidambaram'
 theme = 'hugo-theme-stack'
