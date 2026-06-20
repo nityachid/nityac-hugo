@@ -12,7 +12,7 @@ hasCJKLanguage = false
 
 [params]
   # Stack theme configuration
-  mainSections = ['posts']
+  mainSections = ['essays']
   
   [params.sidebar]
     subtitle = 'Operator. Builder. Systems thinker.'
