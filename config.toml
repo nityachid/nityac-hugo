@@ -15,7 +15,7 @@ hasCJKLanguage = false
   mainSections = ['essays']
   
   [params.sidebar]
-    subtitle = 'Operator. Builder. Systems thinker.'
+    subtitle = 'Co-founder, HeyAmos. Operator. Systems thinker.'
   
   [params.sidebar.avatar]
     enabled = true
@@ -23,7 +23,7 @@ hasCJKLanguage = false
     src = 'img/profile-thumb.jpg'
   
   [params.footer]
-    customText = 'Built with intent. © 2025 Nitya Chidambaram.'
+    customText = 'Built with intent. © 2026 Nitya Chidambaram.'
   
 [menu]
   [[menu.main]]
