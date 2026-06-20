@@ -4,8 +4,6 @@ date: 2024-01-01T00:00:00Z
 draft: false
 ---
 
-# About
-
 ### What I Do
 I help teams fix the messy operational challenges that come with growth.  
 When business complexity outgrows the tools and processes in place, I help rebuild them faster, leaner, smarter.
